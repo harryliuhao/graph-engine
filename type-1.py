@@ -30,9 +30,7 @@ plt.close('all')
 #plt.figure(1)
 #plt.subplot(211)
 for x in range (6):
-    plt.plot(t2, f(t2), random.randint(1,10))
-    plt.ylim(-1,1)
-
-
+    plt.plot(t2+random.random(), f(t2), random.randint(1,10))
+    plt.ylim(-1,1.5)
 
 plt.show()
